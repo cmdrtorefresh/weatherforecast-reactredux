@@ -9,7 +9,7 @@ This app creates the weather forecast of several cities that are queried in the 
 ### Elements of the App
 
 Containers:
-- Search Bar (textfield and submit button)
+- Search Bar (textfield and submit button).
 
 Others: To Be Populated
 
