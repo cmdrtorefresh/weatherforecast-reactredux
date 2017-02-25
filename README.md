@@ -11,6 +11,9 @@ This app creates the weather forecast of several cities that are queried in the 
 Containers:
 - Search Bar (textfield and submit button).
 
+Middleware:
+- redux-promise `npm install --save redux-promise`
+
 Others: To Be Populated
 
 ### How to see the app in action
