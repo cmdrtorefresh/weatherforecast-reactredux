@@ -6,15 +6,25 @@ export default class SearchBar extends Component {
     super(props);
     this.state = { term: "" };
     this.onChange = this.onInputChange.bind(this);
+    this.onSubmit = this.onFormSubmit.bind(this);
   }
 
   onInputChange(event) {
     this.setState({term: event.target.value});
   }
 
+  onFormSubmit(event) {
+    event.preventDefault();
+
+    //Fetch weather data
+    
+  }
+
   render() {
     return (
-      <form className="input-group">
+      <form
+        onSubmit ={this.onSubmit}
+        className="input-group">
         <input
           placeholder="Get a 5 days forecast in your favorite cities"
           className="form-control"
