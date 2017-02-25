@@ -15,11 +15,15 @@ Containers:
 Reducers:
 - Weather
 
+Components:
+- Chart
+
 Middleware:
 - redux-promise `npm install --save redux-promise`
 
 Other Dependency:
-- axios (to html request).
+- axios (to html request). `npm install --save axios`
+- Sparkline (for chart generating). `npm install --save react-sparklines`
 
 Others: To Be Populated
 
