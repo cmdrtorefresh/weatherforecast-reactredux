@@ -1,25 +1,21 @@
-# ReduxSimpleStarter
+# Redux React Simple App : Weather Forecast
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+Taken from [Stephen Grider](https://github.com/StephenGrider)'s React-Redux course on [Udemy](https://www.udemy.com/react-redux/).
 
-###Getting Started###
+### About this App
 
-There are two methods for getting started with this repo.
+This app creates the weather forecast of several cities that are queried in the search textfield.
 
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
+### Elements of the App
 
-```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
+Containers:
+- Search Bar (textfield and submit button)
 
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
+Others: To Be Populated
 
-```
-	> npm install
-	> npm start
-```
+### How to see the app in action
+
+`npm install` installs the dependencies.
+`npm start` starts the server.
+
+Go to `localhost:8080` on the browser.
