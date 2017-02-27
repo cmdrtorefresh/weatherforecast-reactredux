@@ -4,7 +4,7 @@ Taken from [Stephen Grider](https://github.com/StephenGrider)'s React-Redux cour
 
 ### About this App
 
-This app creates the weather forecast of several cities that are queried in the search textfield.
+This app creates the weather forecast (temperature, pressure and humidity) of several cities that are queried in the search textfield.
 
 ### Elements of the App
 
@@ -19,13 +19,11 @@ Components:
 - Chart
 
 Middleware:
-- redux-promise `npm install --save redux-promise`
+- [redux-promise](https://www.npmjs.com/package/redux-promise) `npm install --save redux-promise`
 
 Other Dependency:
-- axios (to html request). `npm install --save axios`
-- Sparkline (for chart generating). `npm install --save react-sparklines`
-
-Others: To Be Populated
+- [axios](https://www.npmjs.com/package/axios) (for html request). `npm install --save axios`
+- [Sparklines](https://github.com/borisyankov/react-sparklines) (for chart generating). `npm install --save react-sparklines`
 
 ### How to see the app in action
 
